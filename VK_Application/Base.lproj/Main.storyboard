@@ -58,8 +58,8 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOC-Iz-BNF">
-                                        <rect key="frame" x="185" y="340" width="44" height="30"/>
-                                        <state key="normal" title="Войти"/>
+                                        <rect key="frame" x="184" y="340" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
                                         <connections>
                                             <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RVK-Ip-4o5"/>
                                         </connections>
@@ -67,7 +67,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="8AJ-JE-m4G" firstAttribute="centerX" secondItem="PXw-6a-2I3" secondAttribute="centerX" id="2ZA-J5-GPO"/>
-                                    <constraint firstAttribute="bottom" secondItem="MOC-Iz-BNF" secondAttribute="bottom" constant="496" id="3DO-JX-UfL"/>
+                                    <constraint firstAttribute="bottom" secondItem="MOC-Iz-BNF" secondAttribute="bottom" constant="20" id="3DO-JX-UfL"/>
                                     <constraint firstAttribute="trailing" secondItem="8AJ-JE-m4G" secondAttribute="trailing" constant="16" id="6Y2-xX-uKy"/>
                                     <constraint firstItem="8Rs-5y-eYd" firstAttribute="centerX" secondItem="PXw-6a-2I3" secondAttribute="centerX" id="7xB-FT-77L"/>
                                     <constraint firstItem="UwQ-pl-ewg" firstAttribute="top" secondItem="8Rs-5y-eYd" secondAttribute="bottom" constant="10" id="CnK-w3-ulS"/>
@@ -95,6 +95,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="ScrollView" destination="PXw-6a-2I3" id="u18-cx-R7c"/>
                         <outlet property="loginButton" destination="MOC-Iz-BNF" id="frM-lg-2qy"/>
                         <outlet property="loginLabel" destination="8Rs-5y-eYd" id="diB-Ar-Nka"/>
                         <outlet property="loginTextField" destination="UwQ-pl-ewg" id="f8E-qz-tal"/>
